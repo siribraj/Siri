@@ -1,6 +1,7 @@
 body {
     background-color: #dae1e7;
     text-align: center;
+    margin: 0;
 }
 
 .top-cloud {
@@ -12,11 +13,11 @@ body {
 }
 
 .bottom-cloud {
-    position: absolute;
+    position: relative;
     height: 48px;
     width: 150px;
-    top: 150px;
-    left: 150px;
+    top: 20%;
+    left: 5%%;
 }
 
 .mountain {
@@ -105,6 +106,7 @@ img {
 }
 
 .bottom-container {
+    width: 100%;
     background-color: #66bfbf;
     padding: 15px 0 15px 0;
 }
